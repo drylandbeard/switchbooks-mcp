@@ -10,5 +10,5 @@
   "repository": "https://github.com/drylandbeard/switchbooks-mcp",
   "license": "MIT",
   "keywords": ["accounting", "bookkeeping", "reports", "transactions", "mcp"],
-  "logo": "https://switchbooks.ai/icons/browsericon.png"
+  "logo": "assets/logo.png"
 }
