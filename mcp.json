@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "switchbooks": {
+      "url": "https://app.switchbooks.ai/api/mcp"
+    }
+  }
+}
