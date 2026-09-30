@@ -24,6 +24,10 @@ The hosted server is `https://app.switchbooks.ai/api/mcp`. It uses Streamable HT
 
 The connector exposes `list_companies` and `set_company`. Other tools use the selected company. A single accessible company is selected automatically; accounts with multiple companies must choose one. Access is checked for every tool call.
 
+## Disconnect
+
+In Switchbooks, open **Settings → MCP → Connected apps**, find the connection, and choose **Disconnect**. This immediately revokes both its access and refresh tokens. You can reconnect later by authorizing access again.
+
 ## Local Cursor setup
 
 To test the hosted connector before marketplace installation, merge the `mcpServers.switchbooks` entry from this package's `mcp.json` into your project's `.cursor/mcp.json` or your user's `~/.cursor/mcp.json`. Preserve any existing server entries, then enable Switchbooks and sign in through Cursor.
