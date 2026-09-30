@@ -1,0 +1,14 @@
+{
+  "name": "switchbooks",
+  "version": "1.0.0",
+  "description": "Read-only access to your Switchbooks reports, transactions, accounts, categories, and payees through MCP.",
+  "author": {
+    "name": "Switchbooks",
+    "email": "ryland@switchbooks.ai"
+  },
+  "homepage": "https://switchbooks.ai",
+  "repository": "https://github.com/drylandbeard/switchbooks-mcp",
+  "license": "MIT",
+  "keywords": ["accounting", "bookkeeping", "reports", "transactions", "mcp"],
+  "logo": "https://switchbooks.ai/icons/browsericon.png"
+}
