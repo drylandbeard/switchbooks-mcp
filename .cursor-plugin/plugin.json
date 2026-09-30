@@ -1,7 +1,7 @@
 {
   "name": "switchbooks",
   "version": "1.0.0",
-  "description": "Read-only access to your Switchbooks reports, transactions, accounts, categories, and payees through MCP.",
+  "description": "Read Switchbooks reports and accounting data, with optional permission for undoable bookkeeping changes through MCP.",
   "author": {
     "name": "Switchbooks",
     "email": "ryland@switchbooks.ai"
