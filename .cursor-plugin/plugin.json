@@ -1,7 +1,7 @@
 {
   "name": "switchbooks",
   "version": "1.0.0",
-  "description": "Read Switchbooks reports and accounting data, with optional permission for undoable bookkeeping changes through MCP.",
+  "description": "Do your bookkeeping with a prompt. Switchbooks brings AI accounting and bookkeeping to small businesses. Categorize and post transactions, reconcile accounts, and create journal entries through conversation. Understand your finances with profit and loss (P&L), balance sheets, and cash flow reports.",
   "author": {
     "name": "Switchbooks",
     "email": "ryland@switchbooks.ai"
