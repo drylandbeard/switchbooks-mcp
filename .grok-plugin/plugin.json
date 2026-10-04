@@ -1,0 +1,14 @@
+{
+  "name": "switchbooks",
+  "version": "1.0.1",
+  "description": "Do your bookkeeping with a prompt. Switchbooks brings AI accounting and bookkeeping to small businesses. Categorize and post transactions, reconcile accounts, and create journal entries through conversation. Understand your finances with profit and loss (P&L), balance sheets, and cash flow reports.",
+  "author": {
+    "name": "Switchbooks",
+    "email": "ryland@switchbooks.ai",
+    "url": "https://switchbooks.ai"
+  },
+  "homepage": "https://switchbooks.ai",
+  "repository": "https://github.com/drylandbeard/switchbooks-mcp",
+  "license": "MIT",
+  "keywords": ["switchbooks", "accounting", "bookkeeping", "reports", "transactions", "mcp"]
+}

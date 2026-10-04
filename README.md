@@ -1,6 +1,6 @@
 # Switchbooks
 
-Connect Cursor and Grok Bot to your Switchbooks accounting data. Ask about reports, search transactions, and inspect accounts, categories, payees, and rules.
+Connect Cursor, Grok Bot, and Grok Build to your Switchbooks accounting data. Ask about reports, search transactions, and inspect accounts, categories, payees, and rules.
 
 Choose read-only access or authorize undoable bookkeeping changes on the Switchbooks consent screen. Read-only access covers reports, transactions, accounts, categories, payees, and other accounting information. Selecting an active company changes only the connection's company selection.
 
@@ -36,7 +36,7 @@ In Switchbooks, open **Settings → MCP → Connected apps**, find the connectio
 
 To test the hosted connector before marketplace installation, merge the `mcpServers.switchbooks` entry from this package's `mcp.json` into your project's `.cursor/mcp.json` or your user's `~/.cursor/mcp.json`. Preserve any existing server entries, then enable Switchbooks and sign in through Cursor.
 
-See [Cursor MCP setup](https://cursor.com/docs/mcp) and [Grok Bot plugin settings](https://docs.x.ai/grok-bot/settings-and-notifications).
+See [Cursor MCP setup](https://cursor.com/docs/mcp) and [Grok Bot plugin settings](https://docs.x.ai/grok-bot/settings-and-notifications). In Grok Build, install from the marketplace with `grok plugin install switchbooks`; the `.mcp.json` at the plugin root points at the same hosted server.
 
 ## Support
 
