@@ -2,7 +2,7 @@
 
 Connect Cursor, Grok Bot, and Grok Build to your Switchbooks accounting data. Ask about reports, search transactions, and inspect accounts, categories, payees, and rules.
 
-Choose read-only access or authorize undoable bookkeeping changes on the Switchbooks consent screen. Read-only access covers reports, transactions, accounts, categories, payees, and other accounting information. Selecting an active company changes only the connection's company selection.
+Choose read-only access or authorize bookkeeping changes on the Switchbooks consent screen. Read-only access covers reports, transactions, accounts, categories, payees, and other accounting information. Selecting an active company changes only the connection's company selection.
 
 ## Connect
 
@@ -17,7 +17,11 @@ The hosted server is `https://app.switchbooks.ai/api/mcp`. It uses Streamable HT
 
 The consent checkbox initially follows the scopes requested by your client, so review it each time you connect. Read-only access uses `switchbooks.read`; allowing changes also grants `switchbooks.write`. Existing read-only connections stay read-only until you reconnect and authorize changes.
 
-With write permission, the connector can make changes that Switchbooks can undo, such as posting or splitting transactions, matching transfers, creating or editing journal entries, changing categories, payees or rules, and completing a previewed reconciliation. No connection can connect or sync banks, send email or invitations, share reports, import files, merge bank accounts, delete files, or remove teammates.
+With write permission, ordinary MCP connections such as Cursor and Grok Bot can post or split transactions, match transfers, create or edit journal entries, change categories, payees or rules, and complete a previewed reconciliation. They can also connect a bank through the user's Plaid sign-in, sync connected banks, upload and import files, email the user or teammates, merge bank accounts, and delete files. Many bookkeeping changes can be undone, but some supported actions are irreversible and email reaches other people. Review the requested action before allowing it.
+
+Read-only connections cannot perform these writes. No MCP connection can invite or remove teammates, change access roles, cancel invitations, or create shared report links. Those actions stay in the Switchbooks app.
+
+ChatGPT and legacy OpenAI plugin connections use reviewed subsets of the full MCP catalog. On the ChatGPT-specific endpoint, bank sign-in and completion, file imports, owner-request writes, bank sync, email, bank-account merges and file deletion stay in the app.
 
 ## Try it
 
