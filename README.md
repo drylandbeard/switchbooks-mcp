@@ -15,7 +15,7 @@ You need a Switchbooks account with access to at least one company. A company's 
 
 The hosted server is `https://app.switchbooks.ai/api/mcp`. It uses Streamable HTTP with OAuth, dynamic client registration, and PKCE. No API key, shared secret, or local server is required.
 
-The consent checkbox initially follows the scopes requested by your client, so review it each time you connect. Read-only access uses `switchbooks.read`; allowing changes also grants `switchbooks.write`. Existing read-only connections stay read-only until you reconnect and authorize changes.
+Review the “Allow bookkeeping changes” checkbox each time you connect; uncheck it for read-only access. Read-only access uses `switchbooks.read`; allowing changes also grants `switchbooks.write`. Existing read-only connections stay read-only until you reconnect and authorize changes.
 
 With write permission, ordinary MCP connections such as Cursor and Grok Bot can post or split transactions, match transfers, create or edit journal entries, change categories, payees or rules, and complete a previewed reconciliation. They can also connect a bank through the user's Plaid sign-in, sync connected banks, upload and import files, email the user or teammates, merge bank accounts, and delete files. Many bookkeeping changes can be undone, but some supported actions are irreversible and email reaches other people. Review the requested action before allowing it.
 
